@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 613" width="660" height="613" role="img" aria-label="Титановый имплантат с коронкой">
+  <defs>
+    <radialGradient id="tf" cx=".34" cy=".26" r=".95"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#f4f8f5"/><stop offset=".82" stop-color="#d2e3d8"/><stop offset="1" stop-color="#9fbfac"/></radialGradient>
+    <linearGradient id="ts" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".62" stop-color="#4a7d5c" stop-opacity="0"/><stop offset="1" stop-color="#2f6a45" stop-opacity=".38"/></linearGradient>
+    <linearGradient id="sv" x1="0" x2="1"><stop offset="0" stop-color="#6f7c77"/><stop offset=".3" stop-color="#f1f6f3"/><stop offset=".5" stop-color="#fff"/><stop offset=".78" stop-color="#b3bfb9"/><stop offset="1" stop-color="#6b7872"/></linearGradient>
+    <linearGradient id="th" x1="0" x2="1"><stop offset="0" stop-color="#5f6c66"/><stop offset=".28" stop-color="#e3ebe7"/><stop offset=".48" stop-color="#fff"/><stop offset=".78" stop-color="#a5b2ab"/><stop offset="1" stop-color="#5a6760"/></linearGradient>
+    <linearGradient id="gum" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7cfc6"/><stop offset="1" stop-color="#e79a94"/></linearGradient>
+    <linearGradient id="rg" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".45" stop-color="#dcffe4" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/></linearGradient>
+    <radialGradient id="bb" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#fff" stop-opacity=".1"/><stop offset=".8" stop-color="#d9f5e3" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity=".9"/></radialGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="13" flood-color="#06260f" flood-opacity=".38"/></filter>
+    <filter id="bl"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="bl2"><feGaussianBlur stdDeviation="14"/></filter>
+    <path id="sp" d="M0-22Q2-2 22 0Q2 2 0 22Q-2 2-22 0Q-2-2 0-22Z"/>
+  </defs>
+
+  <ellipse cx="360" cy="566" rx="150" ry="17" fill="#06260f" opacity=".4" filter="url(#bl2)"/>
+
+  <!-- десна -->
+  <g filter="url(#sh)">
+    <path d="M205 330C205 300 250 292 300 296C330 298 390 298 420 296C470 292 515 300 515 330V548C515 566 495 574 470 574H250C225 574 205 566 205 548Z" fill="url(#gum)"/>
+    <ellipse cx="360" cy="300" rx="154" ry="14" fill="#f9dcd4" opacity=".9"/>
+  </g>
+
+  <!-- имплантат -->
+  <g transform="translate(360 0)" filter="url(#sh)">
+    <path d="M-34 300H34V316H-34Z" fill="url(#sv)"/>
+    <path d="M-36 314H36L30 330H-30Z" fill="url(#th)"/>
+    <g id="thr" fill="url(#th)">
+      <rect x="-38" y="332" width="76" height="11" rx="5.5"/>
+      <rect x="-37" y="350" width="74" height="11" rx="5.5"/>
+      <rect x="-36" y="368" width="72" height="11" rx="5.5"/>
+      <rect x="-35" y="386" width="70" height="11" rx="5.5"/>
+      <rect x="-33" y="404" width="66" height="11" rx="5.5"/>
+      <rect x="-31" y="422" width="62" height="11" rx="5.5"/>
+      <rect x="-28" y="440" width="56" height="11" rx="5.5"/>
+      <rect x="-24" y="458" width="48" height="11" rx="5.5"/>
+    </g>
+    <path d="M-17 474H17C17 488 8 500 0 504C-8 500 -17 488 -17 474Z" fill="url(#th)"/>
+    <path d="M-26 338V462" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  </g>
+
+  <!-- абатмент и коронка -->
+  <g transform="translate(260 120)" filter="url(#sh)">
+    <path d="M30 72C26 28 72 6 100 30C128 6 174 28 170 72C170 100 160 130 152 148C146 160 130 168 100 168C70 168 54 160 48 148C40 130 30 100 30 72Z" fill="url(#tf)"/>
+    <path d="M30 72C26 28 72 6 100 30C128 6 174 28 170 72C170 100 160 130 152 148C146 160 130 168 100 168C70 168 54 160 48 148C40 130 30 100 30 72Z" fill="url(#ts)"/>
+    <path d="M44 62C44 40 64 26 82 30" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".85" filter="url(#bl)"/>
+    <ellipse cx="62" cy="62" rx="7" ry="26" fill="#fff" opacity=".7" filter="url(#bl)"/>
+  </g>
+
+  <!-- кольцо -->
+  <g transform="rotate(-10 360 236)" fill="none" stroke-linecap="round">
+    <path d="M206 238C206 218 276 204 360 204S514 218 514 238" stroke="url(#rg)" stroke-width="5"/>
+    <path d="M206 238C206 262 276 276 360 276S514 262 514 238" stroke="url(#rg)" stroke-width="3" opacity=".6"/>
+  </g>
+
+  <!-- бор справа -->
+  <g transform="rotate(24 560 190)" filter="url(#sh)">
+    <rect x="547" y="196" width="26" height="130" rx="13" fill="url(#sv)"/>
+    <rect x="540" y="150" width="40" height="62" rx="14" fill="url(#sv)"/>
+    <rect x="556" y="112" width="8" height="44" rx="4" fill="#d9e2dd"/>
+    <rect x="548" y="214" width="24" height="5" fill="#9aa8a1" opacity=".7"/>
+  </g>
+
+  <use href="#sp" transform="translate(112 160) scale(1.1)" fill="#ffd86b"/>
+  <use href="#sp" transform="translate(150 430) scale(.6)" fill="#fff"/>
+  <use href="#sp" transform="translate(585 470) scale(.8)" fill="#ffe9a0"/>
+  <use href="#sp" transform="translate(470 70) scale(.5)" fill="#fff"/>
+  <circle cx="130" cy="290" r="30" fill="url(#bb)" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="205" cy="70" r="14" fill="url(#bb)" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="90" cy="78" r="9" fill="url(#bb)" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+  <circle cx="575" cy="390" r="17" fill="url(#bb)" stroke="#fff" stroke-opacity=".7" stroke-width="2"/>
+</svg>
