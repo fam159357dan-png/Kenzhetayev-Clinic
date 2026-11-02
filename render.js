@@ -159,7 +159,7 @@ function head(S, origin, page) {
   <meta name="description" content="${esc(m.description)}">
   <meta name="robots" content="${page.type === "notfound" ? "noindex" : "index, follow, max-image-preview:large"}">
   <link rel="canonical" href="${esc(m.url)}">
-  <meta name="theme-color" content="#165a25">
+  <meta name="theme-color" content="#39745a">
   <meta property="og:title" content="${esc(m.title)}">
   <meta property="og:description" content="${esc(m.description)}">
   <meta property="og:type" content="website">
