@@ -192,7 +192,7 @@ section { padding: 88px 0; position: relative; }
 /* ---------- галерея, видео ---------- */
 .gallery { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr); }
 .gallery figure { margin: 0; overflow: hidden; border-radius: 26px; background: var(--mint); }
-.gallery img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+.gallery img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: center 30%; transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
 .gallery figure:hover img { transform: scale(1.06); }
 .gallery figure:nth-child(3n + 2) { transform: translateY(24px); }
 .videos { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 4px 16px; scrollbar-width: thin; }
