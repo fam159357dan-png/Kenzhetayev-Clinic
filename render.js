@@ -176,7 +176,7 @@ function header(S, page) {
   const b = S.brand;
   const cur = (key) => (page.type === key || (key === "uslugi" && page.type === "service") ? ' aria-current="page"' : "");
   return `<div class="topbar wrap">
-      <a class="logo" href="/">${b.logoIcon ? `<img src="${esc(b.logoIcon)}" alt="Логотип ${esc(b.name)}" width="46" height="46">` : ""}<span class="logo-text">${esc(b.name)}<small>Стоматология · Петропавловск</small></span></a>
+      <a class="logo" href="/">${b.logoWide ? `<img src="${esc(b.logoWide)}" alt="${esc(b.name)} — стоматология, Петропавловск" width="169" height="46">` : `${b.logoIcon ? `<img src="${esc(b.logoIcon)}" alt="Логотип ${esc(b.name)}" width="46" height="46">` : ""}<span class="logo-text">${esc(b.name)}<small>Стоматология · Петропавловск</small></span>`}</a>
       <div class="top-actions">
         <a class="btn btn-outline btn-sm" href="${waLink(S)}" target="_blank" rel="noopener">Записаться на приём</a>
         <a class="btn btn-grad btn-sm" href="#callback">Обратный звонок</a>

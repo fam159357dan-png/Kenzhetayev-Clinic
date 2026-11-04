@@ -21,6 +21,7 @@ window.SITE = {
     "twogis": "https://2gis.kz/petropavlovsk/firm/70000001056305645",
     "logo": "/images/logo.png",
     "logoIcon": "/images/logo-icon.png",
+    "logoWide": "/images/logo-horizontal.svg",
     "licenseText": "Лицензия № 01681DT, выдана 24.09.2021 Департаментом Комитета медицинского и фармацевтического контроля Министерства здравоохранения Республики Казахстан по Северо-Казахстанской области."
   },
   "hero": {
@@ -857,9 +858,19 @@ window.SITE = {
     "text": "Открытие клиники, жизнь внутри и знакомство с врачами. Видео воспроизводятся прямо на сайте.",
     "items": [
       {
+        "file": "/videos/DQnuVCliD3e.mp4",
+        "poster": "/images/v-DQnuVCliD3e.jpg",
+        "title": "Кенжетаев Жандос Консович, стоматолог-ортопед и директор клиники"
+      },
+      {
         "file": "/videos/highlight.mp4",
         "poster": "/images/v-highlight.jpg",
         "title": "Из актуального в Instagram"
+      },
+      {
+        "file": "/videos/DQDtVl0CMIH.mp4",
+        "poster": "/images/v-DQDtVl0CMIH.jpg",
+        "title": "Лечение под микроскопом"
       },
       {
         "file": "/videos/DO7qgx6iNR7.mp4",
@@ -940,16 +951,6 @@ window.SITE = {
         "file": "/videos/DfCULCUIb76.mp4",
         "poster": "/images/v-DfCULCUIb76.jpg",
         "title": "Знакомство с врачом: терапевт и хирург"
-      },
-      {
-        "file": "/videos/DQnuVCliD3e.mp4",
-        "poster": "/images/v-DQnuVCliD3e.jpg",
-        "title": "Кенжетаев Жандос Консович, стоматолог-ортопед и директор клиники"
-      },
-      {
-        "file": "/videos/DQDtVl0CMIH.mp4",
-        "poster": "/images/v-DQDtVl0CMIH.jpg",
-        "title": "Лечение под микроскопом"
       },
       {
         "file": "/videos/hero-video-2.mp4",

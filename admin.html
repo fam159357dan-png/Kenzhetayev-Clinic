@@ -74,7 +74,7 @@
       licenseText: "Текст о лицензии (подвал и «Пациентам»)",
       lead: "Краткое описание", price: "Цена (пусто = «по запросу»)",
       image: "Фото (адрес картинки)", imageAlt: "Подпись к фото для Google (что на фото)", alt: "Подпись к фото для Google (что на фото)",
-      logo: "Логотип (большой)", logoIcon: "Логотип (значок для шапки)",
+      logo: "Логотип (большой)", logoIcon: "Логотип (значок)", logoWide: "Логотип (горизонтальный, для шапки)",
       id: "Код ролика Instagram (из ссылки: instagram.com/reel/КОД/)",
       file: "Файл видео на сайте (если указан, код Instagram не нужен)", poster: "Обложка видео (картинка)",
       note: "Примечание под ценами", slug: "Адрес страницы (латиницей; пусто = из названия)", rating: "Рейтинг", role: "Должность", q: "Вопрос", a: "Ответ", button: "Текст кнопки"
@@ -115,7 +115,7 @@
       "faq.items": { q: "", a: "" }
     };
     const LONG = ["text", "description", "a", "lead", "licenseText"];
-    const IMAGES = ["image", "logo", "logoIcon", "poster"];
+    const IMAGES = ["image", "logo", "logoIcon", "logoWide", "poster"];
 
     const $ = (sel) => document.querySelector(sel);
     const el = (tag, cls, text) => {
